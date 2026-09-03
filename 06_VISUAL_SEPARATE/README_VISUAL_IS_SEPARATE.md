@@ -192,4 +192,65 @@ GATE DE REVALIDATION POUR CHAQUE ID :
 7. validation de la vraie silhouette/forme artistique ;
 8. PASS seulement après 1→7.
 Si 1→6 passent mais que 7 n’est pas validé : rester REGENERATE / FORM_VALIDATION=PENDING, ne pas exclure la forme de l’historique.
+
+
+
+
+## ASSETS LOT_05 + ÉCRANS + MICRO-PACKS — 2026-09-03
+### LOT_05 041–050
+Reçu et contrôlé contre les jobs V10.
+- PASS : 0
+- REGENERATE : 10
+- AMBIGUOUS : 0
+- FORM_VALIDATION : PENDING pour 041–050
+- Les dix versions sont conservées comme candidates de forme ; aucune n'est supprimée.
+
+
+Motifs :
+041 cadenas baked.
+042 Play/timeline/fullscreen/favori/états baked.
+043 couronnes/emblèmes d'état baked.
+044 Play/timeline/menu/cadenas + faux métadonnées baked.
+045 pictogramme horloge/état baked.
+046 chevrons/knobs de filtres baked.
+047 X/chevrons/toggles/slider/favoris/états baked.
+048 faux contenu/métadonnées baked dans la zone de copie.
+049 cadenas/Play/cœur/progression/faux métadonnées baked.
+050 faux contenu/métadonnées baked dans la zone runtime.
+
+
+État global V10 : 50 reçus / 16 PASS / 34 REGENERATE / 0 AMBIGUOUS / 100 MISSING / COMPLETE=false.
+Prochain ID jamais reçu : 051.
+
+
+### BATCH_06 retrouvé
+La spécification de génération 051–060 a été retrouvée dans la bibliothèque de continuité :
+051 Hero accueil visiteur
+052 Hero accueil abonné
+053 Hero accueil acheteur PPV
+054 Bloc média mis en avant
+055 Rail continuer à regarder
+056 Rail favoris
+057 Rail nouveautés
+058 Rail séries
+059 Panneau les plus vues
+060 Résumé compte accueil.
+Aucun lot de 10 PNG 051–060 n'a été retrouvé/confirmé : 051–060 restent MISSING.
+
+
+### ÉCRANS COMPLETS
+Cibles reçues :
+- SCREEN_01_GATE — micro-pack complet CORTEZIA_GATE_01
+- SCREEN_02 — vérification officielle d'âge
+- SCREEN_03 — connexion
+- SCREEN_04 — inscription
+- SCREEN_05 — accès premium verrouillé
+- SCREEN_06 — vérifié sans entitlement
+Les PNG d'écran sont GOLDEN VISUAL TARGETS, jamais backgrounds cliquables. Leurs textes, médias, prix et données visibles ne deviennent pas automatiquement canoniques.
+
+
+Dossiers Drive :
+- 06_SCREEN_TARGETS
+- 07_CODEX_MICRO_PACKS
+- 08_GENERATION_SPECS
 .
