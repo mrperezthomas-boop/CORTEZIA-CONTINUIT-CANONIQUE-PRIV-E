@@ -1,0 +1,82 @@
+CORTEZIA — CIBLE VISUELLE CODEX
+PAGE_ID=01
+STATUS=USER_VALIDATED
+TITLE=Première arrivée — Gate 18+
+DEVICE=DESKTOP_WINDOWS
+ASPECT_RATIO=16:9
+TARGET_IMAGE=01_gate_18_desktop.png
+
+ROLE
+Cette image est la cible visuelle maîtresse de la première page vue à l’arrivée sur Cortezia.
+Elle sert à Codex pour reproduire le rendu en vrai code.
+Elle NE DOIT JAMAIS être utilisée comme screenshot cliquable, image de fond de page ou remplacement du runtime.
+
+SOURCES VISUELLES PRINCIPALES
+- BATCH_01/001_basic_age_gate_desktop.png : coque et langage du Gate 18+.
+- BATCH_04/031_header_guest.png : langage du header visiteur.
+- BATCH_04/036_footer.png : structure et langage du footer.
+- BRAND/logo_ctzia.png : source autoritaire du monogramme/logo CTZIA.
+- BRAND/brand_footer.png : source autoritaire du brand horizontal à afficher dans la zone de marque du footer.
+
+BRANDING — RÈGLE ABSOLUE
+- Ne jamais redessiner, réinterpréter ou halluciner le monogramme CTZIA.
+- Utiliser BRAND/logo_ctzia.png comme source visuelle autoritaire partout où le monogramme/crest est requis.
+- Sur cette page, le médaillon rond situé au-dessus du Gate 18+ doit reprendre ce CTZIA.
+- Ne jamais remplacer le brand du footer par un simple texte CORTEZIA généré.
+- Utiliser BRAND/brand_footer.png comme source autoritaire pour la zone de marque centrale du footer.
+
+COMPOSITION APPROUVÉE
+1. Header Cortezia visiteur en haut de page.
+2. Grande zone transparente entre le header et le Gate : le fond animé réel du site doit rester visible ici.
+3. Gate 18+ joaillier centré, dominant sans remplir tout le viewport.
+4. Médaillon CTZIA au-dessus du Gate.
+5. Deux zones d’actions principales intégrées à la coque du Gate.
+6. Espaces extérieurs et inter-composants transparents.
+7. Footer complet en bas de page.
+8. Brand horizontal officiel au centre du footer.
+9. Barre légale/copyright collée au bord physique inférieur de la page, sans vide sous elle.
+
+DIRECTION ARTISTIQUE
+- Fond global runtime : marbre blanc/ivoire animé EXISTANT, non inclus dans la cible artistique à coder comme image.
+- Arrière-plan extérieur de la cible : transparent alpha.
+- Onyx noir poli : matière locale uniquement.
+- Ivoire minéral chaud.
+- Or champagne poli/liquide, lumineux mais contrôlé.
+- Courbes sculptées, relief, profondeur, asymétries maîtrisées, finition joaillière / Art déco contemporain.
+- Interdit : thème noir global, dashboard SaaS, cyberpunk, néon, simples rectangles noirs bordés d’or.
+
+RUNTIME À RECONSTRUIRE EN VRAI CODE
+- navigation et liens ;
+- textes ;
+- boutons et zones cliquables ;
+- focus/hover/press ;
+- logique Age Gate ;
+- accessibilité ;
+- responsive ;
+- état réel ;
+- données et logique applicative ;
+- vrai fond animé existant.
+
+RÈGLE D’INTÉGRATION
+TARGET_PNG = GOLDEN_VISUAL_TARGET_ONLY.
+Codex doit analyser cette image, identifier les composants existants du projet et reproduire la composition avec HTML/CSS/React + assets runtime sûrs.
+Ne jamais poser 01_gate_18_desktop.png derrière la page comme un background.
+
+VALIDATION VISUELLE OBLIGATOIRE
+Après implémentation :
+1. lancer la vraie page ;
+2. capturer le rendu desktop 16:9 ;
+3. comparer à 01_gate_18_desktop.png ;
+4. corriger les écarts matériels ;
+5. recapturer ;
+6. vérifier au minimum : proportions, hiérarchie, courbes, matières, exposition du fond animé, placement CTZIA, footer et barre légale collée au bas physique.
+
+CRITÈRES PASS
+- composition générale fidèle à la cible ;
+- CTZIA conforme à BRAND/logo_ctzia.png ;
+- brand footer conforme à BRAND/brand_footer.png ;
+- aucun faux fond global opaque ;
+- aucun screenshot utilisé comme implémentation ;
+- footer au bas physique ;
+- aucune zone vide sous la barre légale ;
+- vrais contrôles et vraie logique runtime.
