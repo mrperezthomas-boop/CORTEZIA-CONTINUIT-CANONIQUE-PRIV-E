@@ -86,4 +86,24 @@ PASS exige conformité au job + alpha/runtime corrects + absence de contenu bake
 Drive canonique privé + dépôt GitHub de continuité doivent rester synchronisés.
 GitHub continuité : mrperezthomas-boop/CORTEZIA-CONTINUIT-CANONIQUE-PRIV-E.
 Ce dépôt est une mémoire/documentation de travail, jamais le dépôt du site de diffusion. Le futur dépôt du site sera traité séparément sur ordre explicite.
+
+
+
+
+## ÉCRANS / CODEX — REPRISE 2026-09-03
+Cibles disponibles : SCREEN_01 à SCREEN_06.
+SCREEN_01_GATE a un micro-pack complet.
+État Codex rapporté pour SCREEN_01 :
+- snapshot créé : K:\Cortezia Studio\DOSSIER SITE OFFICIEL\implémentation de direction artistique\PRECHANGE_SNAPSHOT\CORTEZIA_GATE_01_20260903_082242
+- assets 001 / 031 / 036 déjà vérifiés sous public/assets/cortezia-visual/
+- branding ajouté sous public/assets/cortezia-gate-01/
+- aucune modification AgeGate.tsx/CSS finalisée au moment du blocage
+- fichiers ciblés connus : components/legal/AgeGate.tsx et app/styles/cortezia-visual-mission-001-040.css
+- reprise : ne pas réauditer, ne pas recréer snapshot, reprendre le delta déjà audité.
+Ce statut provient du compte-rendu Codex fourni par l'utilisateur ; il n'a pas été revalidé directement contre le worktree dans cette conversation.
+
+
+Workflow actif :
+un écran → micro-pack minimal → fichiers runtime ciblés → implémentation → capture → correction visuelle → tests ciblés → STOP.
+Drive/GitHub restent la mémoire complète mais ne doivent pas être relus par Codex pendant l'exécution d'un micro-pack autonome.
 .
