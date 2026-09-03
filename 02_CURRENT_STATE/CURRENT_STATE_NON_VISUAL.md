@@ -68,4 +68,26 @@ Architecture de déploiement finale = OPEN
 ## CONTINUITÉ DOCUMENTAIRE ACTIVE
 Source de reprise : Drive canonique privé.
 Aucun ZIP/Master n’est requis pour la maintenance courante.
-Toute nouvelle information durable ou tout changement d’état doit être propagé directement au bon document Drive..
+Toute nouvelle information durable ou tout changement d’état doit être propagé directement au bon document Drive.
+
+
+## CONTINUITÉ ACTIVE — 2026-09-03
+- Google Drive canonique privé : ACTIVE.
+- GitHub de continuité : ACTIVE, repository mrperezthomas-boop/CORTEZIA-CONTINUIT-CANONIQUE-PRIV-E.
+- Le GitHub de continuité est séparé du futur repository du site.
+- Visibilité GitHub observée : PUBLIC ; l’utilisateur a explicitement autorisé qu’il reste public si le réglage privé n’est pas disponible via l’outil.
+- Aucun secret ne doit y être stocké.
+- Canon textuel : miroir Drive + GitHub.
+- Binaires V10/batches/pack : stockés dans Drive et indexés dans GitHub tant que la surface GitHub connectée reste text-only.
+- Pipeline V10 courant : 16 PASS / 24 REGENERATE / 110 MISSING / COMPLETE=false.
+
+
+
+
+## CODEX MICRO-PACK MODE — 2026-09-03
+Mode actif pour les écrans visuels : Codex exécuteur local ciblé.
+La continuité Drive + GitHub ne doit pas être rechargée par Codex à chaque écran.
+La carte de chemins connus doit être réutilisée pour minimiser l'exploration.
+SCREEN_01 Gate reste un état de reprise source-backed par le compte-rendu Codex, pas une implémentation déclarée terminée.
+V10 courant : 50 reçus, 16 PASS, 34 REGENERATE conservés, 100 MISSING.
+.
