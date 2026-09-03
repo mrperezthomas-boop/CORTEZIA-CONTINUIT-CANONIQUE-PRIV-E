@@ -1,6 +1,6 @@
 # CORTEZIA — ÉDITEUR VISUEL ADMIN
 
-Statut : `RECOMMENDATION / À IMPLÉMENTER APRÈS VALIDATION TECHNIQUE`  
+Statut : `SELECTED / À IMPLÉMENTER ET VALIDER DANS LE VRAI WORKTREE`  
 Date : 2026-09-03
 
 ## Besoin utilisateur
@@ -141,6 +141,6 @@ GrapesJS est puissant et historiquement open-source, mais son approche est plus 
 
 `ADMIN_VISUAL_EDITOR_REQUIRED = ACTIVE_USER_REQUIREMENT`
 
-`PUCK = RECOMMENDED_NOT_IMPLEMENTED`
+`PUCK = SELECTED_NOT_IMPLEMENTED`
 
-Ne pas annoncer Puck comme installé tant qu'il n'a pas été intégré et testé dans le vrai worktree.
+La sélection Puck est validée par le propriétaire. Ne pas annoncer Puck comme installé tant qu'il n'a pas été intégré et testé dans le vrai worktree.
