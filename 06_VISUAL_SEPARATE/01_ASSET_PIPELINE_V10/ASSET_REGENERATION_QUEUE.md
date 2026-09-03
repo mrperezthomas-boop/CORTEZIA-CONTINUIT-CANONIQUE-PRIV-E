@@ -42,3 +42,22 @@ FORM_VALIDATION defaults to PENDING until the real silhouette/form is explicitly
 8. PASS only after 1→7.
 
 If steps 1→6 pass but step 7 is pending: remain REGENERATE with FORM_VALIDATION=PENDING.
+
+
+## LOT_05 — 041–050
+All ten received versions are preserved as form candidates. FORM_VALIDATION=PENDING.
+
+| ID | Defect | Required correction |
+|---|---|---|
+|041|Lock icon baked|Keep shell/media aperture/wells; remove lock and runtime state pictograms|
+|042|Play, timeline/knob, fullscreen, favorite and states baked|Keep silhouette and alpha aperture; make all controls/states neutral runtime wells|
+|043|Crown/state emblems baked|Keep medallion wells; remove crowns/state symbols; PPV-owned state runtime|
+|044|Play, timeline, menu, lock and fake metadata bars baked|Keep frame/aperture/wells; empty all controls and metadata zones|
+|045|Clock/state pictogram baked|Keep silhouette/wells; remove real icon/state|
+|046|Dropdown chevrons and control knobs baked|Keep sculpted filter wells; remove chevrons/knobs/state|
+|047|Close X, chevrons, toggles, slider, favorite/state controls baked|Keep grid and alpha apertures; neutralize all controls/states|
+|048|Fake metadata/copy bars baked in runtime description area|Keep card/cover aperture/wells; leave copy zone clean and empty|
+|049|Lock, Play, heart, progress/state and fake metadata baked|Keep episode shell/alpha thumbnail/wells; remove all controls/states/placeholders|
+|050|Fake metadata/copy bars baked|Keep silhouette/alpha thumbnail/action wells; leave TITLE/METADATA zones neutral|
+
+Promotion rule remains: technical correction + V10 compliance + real form/silhouette validation before PASS.
