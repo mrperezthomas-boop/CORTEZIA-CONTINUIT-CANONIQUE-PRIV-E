@@ -1,0 +1,102 @@
+{
+  "batch_id": "BATCH_06",
+  "source_sequence": "051-060",
+  "output_count": 10,
+  "status": "SPEC_RECOVERED_IMAGES_NOT_FOUND",
+  "image_policy": "10 independent generations = 10 distinct PNG files; one component per file; true alpha; no runtime text/branding/icons/data baked",
+  "jobs": [
+    {
+      "id": "051",
+      "filename": "051_hero_guest.png",
+      "title": "Hero accueil visiteur",
+      "device": "desktop",
+      "media_apertures": []
+    },
+    {
+      "id": "052",
+      "filename": "052_hero_member.png",
+      "title": "Hero accueil abonné",
+      "device": "desktop",
+      "media_apertures": []
+    },
+    {
+      "id": "053",
+      "filename": "053_hero_ppv.png",
+      "title": "Hero accueil acheteur PPV",
+      "device": "desktop",
+      "media_apertures": [
+        "MEDIA"
+      ]
+    },
+    {
+      "id": "054",
+      "filename": "054_featured_media.png",
+      "title": "Bloc média mis en avant",
+      "device": "desktop",
+      "media_apertures": [
+        "featured_media"
+      ]
+    },
+    {
+      "id": "055",
+      "filename": "055_rail_continue.png",
+      "title": "Rail continuer à regarder",
+      "device": "desktop",
+      "media_apertures": [
+        "video_thumbnail repeatable 4-5"
+      ]
+    },
+    {
+      "id": "056",
+      "filename": "056_rail_favorites.png",
+      "title": "Rail favoris",
+      "device": "desktop",
+      "media_apertures": [
+        "video_thumbnail repeatable"
+      ]
+    },
+    {
+      "id": "057",
+      "filename": "057_rail_new.png",
+      "title": "Rail nouveautés",
+      "device": "desktop",
+      "media_apertures": [
+        "video_thumbnail repeatable"
+      ]
+    },
+    {
+      "id": "058",
+      "filename": "058_rail_series.png",
+      "title": "Rail séries",
+      "device": "desktop",
+      "media_apertures": [
+        "series_cover repeatable"
+      ]
+    },
+    {
+      "id": "059",
+      "filename": "059_top_viewed.png",
+      "title": "Panneau les plus vues",
+      "device": "desktop",
+      "media_apertures": [
+        "rank_media repeatable"
+      ]
+    },
+    {
+      "id": "060",
+      "filename": "060_account_summary.png",
+      "title": "Résumé compte accueil",
+      "device": "desktop",
+      "media_apertures": []
+    }
+  ],
+  "provenance": {
+    "recovered_from_file_library": [
+      "BATCH_06_GEMINI.json",
+      "BATCH_06_GEMINI.txt",
+      "BATCH_06_GEMINI_ULTRA.json"
+    ],
+    "recovered_at": "2026-09-03",
+    "actual_png_batch_confirmed": false
+  }
+}
