@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "name": "CORTEZIA_BIBLE",
+    "status": "ACTIVE_CANON_UI_PRODUCT_WORKFLOW",
+    "date": "2026-09-03",
+    "scope": [
+      "product",
+      "frontend_ui",
+      "navigation",
+      "user_states",
+      "visual_system",
+      "admin_requirements",
+      "agent_workflow"
+    ],
+    "excludes": [
+      "secrets",
+      "full_server_implementation",
+      "volatile_remote_state"
+    ],
+    "authority_order": [
+      "current_explicit_user_instruction",
+      "verified_current_runtime_for_technical_existence",
+      "this_bible_for_product_ui_workflow",
+      "active_continuity_docs",
+      "historical_conversations",
+      "old_mockups_and_ai_suggestions"
+    ]
+  },
+  "product": {
+    "type": "premium_adult_streaming_service",
+    "real_service": true,
+    "creator_centric": false,
+    "desktop_and_mobile": true,
+    "data_dynamic": true
+  },
+  "age": {
+    "basic_gate": {
+      "purpose": "declaration_warning",
+      "is_official_proof": false,
+      "first_visit": true,
+      "accept_destination": "HOME_SAFE"
+    },
+    "official_verification": {
+      "automatic_after_basic_gate": false,
+      "trigger": "WHEN_REAL_PRODUCT_LEGAL_RUNTIME_REQUIRES_PROOF",
+      "exact_trigger_points": "OPEN_VERIFY_RUNTIME",
+      "pre_proof_policy": "SAFE_ONLY_FAIL_CLOSED"
+    }
+  },
+  "user_states": [
+    "VISITOR_SAFE",
+    "REGISTERED_UNVERIFIED",
+    "AGE_VERIFIED_NO_ENTITLEMENT",
+    "ACTIVE_SUBSCRIBER",
+    "PPV_ENTITLED",
+    "ADMIN_REAL",
+    "DEV_SIMULATOR"
+  ],
+  "business": {
+    "subscription": {
+      "plans": 1,
+      "price_eur": 14.99
+    },
+    "ppv": {
+      "price_eur_per_published_video": 3.99
+    },
+    "favorites": "ACTIVE_SUBSCRIBER_ONLY",
+    "registration_grants_entitlement": false
+  },
+  "public_nav": [
+    "Accueil",
+    "Nouveautés",
+    "Toutes les vidéos",
+    "Séries"
+  ],
+  "routes": {
+    "canonical": {
+      "home": "/",
+      "new_releases": "/nouveautes",
+      "videos": "/videos",
+      "search": "/recherche",
+      "series": "/series",
+      "series_detail": "/series/[slug]",
+      "watch": "/watch/[slug]",
+      "login": "/connexion",
+      "register": "/inscription",
+      "subscription": "/abonnement",
+      "favorites": "/favoris",
+      "history": "/historique",
+      "notifications": "/notifications",
+      "account": "/compte",
+      "purchases": "/compte/achats",
+      "legal_cgv": "/legal/cgv",
+      "admin": "/admin",
+      "admin_dev": "/admin/dev"
+    },
+    "legacy_or_noncanonical_by_default": [
+      "/points",
+      "/boutique",
+      "/admin/recompenses"
+    ],
+    "videos_public_category_filter": false
+  },
+  "entitlement": {
+    "all_published_videos_reserved": true,
+    "access_paths": [
+      "ACTIVE_SUBSCRIPTION",
+      "VIDEO_PPV_PURCHASE"
+    ],
+    "preview_never_increases_access": true,
+    "subscriber_should_not_see_subscribe_upsell": true
+  },
+  "visual": {
+    "global_background": "EXISTING_ANIMATED_WHITE_IVORY_MARBLE",
+    "onyx": "LOCAL_ONLY",
+    "gold": "POLISHED_CHAMPAGNE_CONTROLLED",
+    "generic_saas": false,
+    "global_black_theme": false,
+    "brand": {
+      "wordmark": "CORTEZIA.",
+      "open_R": true,
+      "open_A": true,
+      "final_period": true
+    },
+    "target_role": "GOLDEN_VISUAL_REFERENCE_ONLY",
+    "target_runtime_background": false,
+    "desktop_target_ratio": "16:9",
+    "mobile_target_ratio": "9:16",
+    "layer_order": [
+      "MARBLE_RUNTIME",
+      "MEDIA_RUNTIME",
+      "STRUCTURAL_ART",
+      "DOM_SVG_RUNTIME",
+      "LIVE_STATE_DATA_INTERACTIONS"
+    ],
+    "footer": {
+      "legal_strip_flush_physical_bottom": true
+    }
+  },
+  "admin": {
+    "real_backoffice_required": true,
+    "admin_dev_is_real_admin": false,
+    "crud": [
+      "create",
+      "read",
+      "update",
+      "delete",
+      "classify",
+      "organize"
+    ],
+    "visual_editor_requirement": "ACTIVE",
+    "visual_editor_candidate": {
+      "tool": "Puck",
+      "status": "SELECTED_NOT_IMPLEMENTED",
+      "decision_date": "2026-09-03"
+    },
+    "visual_editor_boundaries": {
+      "editable": [
+        "layout",
+        "ordering",
+        "width",
+        "spacing",
+        "allowed_visual_props",
+        "approved_assets",
+        "safe_copy_if_allowed"
+      ],
+      "locked": [
+        "auth_logic",
+        "age_logic",
+        "entitlement_logic",
+        "payment_logic",
+        "private_media_logic",
+        "server_permissions",
+        "sensitive_action_destinations"
+      ]
+    },
+    "visual_editor_route_target": "/admin/design",
+    "visual_editor_initial_scope": "EDITOR_ENGINE_PLUS_HOME_PILOT",
+    "visual_editor_auth": {
+      "reuse_existing_real_admin_auth_if_valid": true,
+      "otherwise_local_bootstrap_only": true,
+      "plaintext_secret_in_repo_or_context": false,
+      "codex_must_generate_and_return_credentials_once": true
+    }
+  },
+  "assets_v10": {
+    "expected": 150,
+    "received": 50,
+    "pass": 16,
+    "regenerate": 34,
+    "ambiguous": 0,
+    "missing": 100,
+    "complete": false,
+    "pass_ids": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006",
+      "011",
+      "013",
+      "014",
+      "018",
+      "021",
+      "025",
+      "026",
+      "028",
+      "029",
+      "030"
+    ],
+    "regenerate_preservation": true
+  },
+  "agent_workflow": {
+    "screen_mode": "ONE_SCREEN_ONE_MICRO_PACK",
+    "executor_does_not_read": [
+      "Drive",
+      "GitHub",
+      "full_history",
+      "unrelated_routes"
+    ],
+    "micro_pack_min": [
+      "PROMPT.txt",
+      "TARGET.png",
+      "SCREEN.json",
+      "needed_brand",
+      "needed_assets"
+    ],
+    "flow": [
+      "TARGET",
+      "TARGETED_RUNTIME_FILES",
+      "IMPLEMENT",
+      "CAPTURE",
+      "COMPARE",
+      "REPAIR",
+      "TARGETED_TESTS",
+      "STOP"
+    ],
+    "minimal_output": [
+      "STATUS",
+      "FILES_CHANGED",
+      "TESTS",
+      "CAPTURE",
+      "VISUAL_GAPS",
+      "SNAPSHOT"
+    ]
+  },
+  "known_codex_paths": {
+    "status": "SOURCE_BACKED_BY_CODEX_REPORT_NOT_REVALIDATED",
+    "screen_01": {
+      "component": "components/legal/AgeGate.tsx",
+      "css": "app/styles/cortezia-visual-mission-001-040.css",
+      "art_assets": "public/assets/cortezia-visual/",
+      "brand_assets": "public/assets/cortezia-gate-01/"
+    }
+  },
+  "superseded": [
+    "BASIC_GATE_THEN_OFFICIAL_VERIFICATION_AUTOMATICALLY",
+    "MULTIPLE_SUBSCRIPTION_TIERS",
+    "SUBSCRIPTION_PRICE_13_99_OR_16_99_OR_19_99",
+    "ARIANA_OR_CREATOR_CENTRIC_PRODUCT",
+    "FULL_PAGE_PNG_AS_CLICKABLE_RUNTIME",
+    "GLOBAL_CODEX_AUDIT_FOR_EACH_SCREEN",
+    "ADMIN_DEV_AS_REAL_ADMIN",
+    "GLOBAL_BLACK_THEME"
+  ],
+  "open": [
+    "FINAL_OFFICIAL_AGE_PROVIDER",
+    "EXACT_OFFICIAL_AGE_TRIGGER_SURFACES",
+    "FINAL_PAYMENT_PROVIDER_CONTRACT",
+    "REMOTE_SUPABASE_SERVICE_STATE",
+    "FINAL_DEPLOYMENT_ARCHITECTURE",
+    "CURRENT_REAL_ADMIN_CRUD_COVERAGE",
+    "DYNAMIC_ROUTE_FIXTURES",
+    "CURRENT_WORKTREE_AFTER_RECENT_CODEX_ATTEMPTS",
+    "PUCK_IMPLEMENTATION_AND_RUNTIME_VALIDATION"
+  ]
+}
