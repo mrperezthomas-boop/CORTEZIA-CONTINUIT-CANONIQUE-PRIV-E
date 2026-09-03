@@ -633,3 +633,13 @@ Ne reconstruis pas Cortezia depuis une vieille conversation.
 6. pour une tâche écran, utilise un micro-pack minimal ;
 7. si l'information n'est pas dans la Bible et qu'elle dépend du runtime, vérifie uniquement le delta nécessaire ;
 8. ne réintroduis jamais un élément `SUPERSEDED`.
+
+
+## Décision éditeur visuel — 2026-09-03
+
+- Puck est **sélectionné** comme éditeur visuel canonique à intégrer dans le vrai admin Cortezia.
+- Statut : `SELECTED_NOT_IMPLEMENTED` tant que le vrai worktree n'a pas été modifié et validé.
+- Route cible préférée : `/admin/design` (adapter seulement si le routage admin réel impose une convention existante).
+- Première intégration : moteur d'éditeur + page Accueil pilote, architecture extensible aux autres surfaces.
+- Auth : réutiliser le vrai contrôle admin s'il existe et fonctionne ; sinon bootstrap local uniquement, secret jamais commité, identifiant/mot de passe générés localement par l'agent et remis une fois au propriétaire.
+- Les règles sensibles (âge, entitlement, paiement, médias privés, permissions, destinations d'actions sensibles) restent hors édition libre.
