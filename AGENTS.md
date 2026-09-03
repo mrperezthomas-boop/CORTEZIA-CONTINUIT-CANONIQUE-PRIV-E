@@ -37,9 +37,16 @@ Writing to THIS continuity repository is authorized for synchronization only; th
 The actual website remains LOCAL FIRST until explicitly changed.
 No push/pull/merge/reset/deploy on a future website repository by initiative.
 
+## CODEX SCREEN MODE
+For screen-by-screen visual work, use CODEX/MICRO_PACK_WORKFLOW.md.
+One screen = one targeted micro-pack.
+Codex must not re-audit the whole repository, search Drive/GitHub, reread old reports or scan unrelated routes when the micro-pack already supplies the required context.
+Reuse confirmed paths from CODEX/CORTEZIA_CODEX_MAP.json unless they become stale.
+
 ## ASSET V10 PIPELINE
 Expected 150.
-Current state: 16 PASS, 24 REGENERATE, 0 AMBIGUOUS, 110 MISSING, COMPLETE=false.
+Current state: 50 received, 16 PASS, 34 REGENERATE, 0 AMBIGUOUS, 100 MISSING, COMPLETE=false.
+Batch 06 job specification 051–060 is recovered, but its 10 PNG outputs are not confirmed received.
 
 REGENERATE is not deletion.
 Every rejected version stays traceable with ID, lot, received version, reason, required correction, replacement history and FORM_VALIDATION status.
