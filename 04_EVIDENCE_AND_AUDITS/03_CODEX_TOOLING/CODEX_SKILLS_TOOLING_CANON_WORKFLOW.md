@@ -126,4 +126,27 @@ Rôle : miroir machine/versionné du Drive canonique et source de contexte pour 
 Ce repository n’est jamais le repository du site.
 L’écriture GitHub est autorisée pour maintenir CE dépôt de continuité. La règle LOCAL FIRST et l’interdiction de push par initiative continuent de s’appliquer au vrai projet du site.
 Codex doit lire AGENTS.md puis les documents ciblés ; il ne doit pas traiter ce repo comme worktree applicatif.
+
+
+
+
+## MICRO-PACK SCREEN WORKFLOW — ACTIVE 2026-09-03
+Pour une mission visuelle écran :
+- ne pas donner à Codex les 150 JSON ni tous les assets ;
+- fournir TARGET + SCREEN.json + PROMPT court + uniquement les assets/brand nécessaires ;
+- garder un CORTEZIA_CODEX_MAP avec les vrais chemins déjà découverts ;
+- ne pas refaire l'exploration des composants connus ;
+- ne pas ouvrir Drive/GitHub pendant l'exécution locale ;
+- ne pas lancer audit global, build global ou toute la suite Playwright à chaque écran ;
+- utiliser lint/typecheck/tests fonctionnels ciblés et capture de la page ;
+- faire les validations globales après un groupe significatif d'écrans ou avant validation finale ;
+- OUTPUT_MODE=MINIMAL ; aucune narration d'exploration.
+
+
+Exemple de chemins actuellement source-backed par le handoff Gate :
+- components/legal/AgeGate.tsx
+- app/styles/cortezia-visual-mission-001-040.css
+- public/assets/cortezia-visual/
+- public/assets/cortezia-gate-01/
+Ces chemins doivent être réutilisés sans recherche tant que le worktree concerné n'a pas matériellement changé ; leur état exact reste à revalider si nécessaire.
 .
