@@ -1,0 +1,40 @@
+{
+  "status": "SOURCE_BACKED_FROM_CODEX_HANDOFF_NOT_REAUDITED_IN_THIS_CONVERSATION",
+  "updated_at": "2026-09-03",
+  "rules": {
+    "preserve_existing": true,
+    "no_global_audit_per_screen": true,
+    "no_drive_during_micro_pack_execution": true,
+    "no_github_during_micro_pack_execution": true,
+    "no_commit": true,
+    "no_push": true,
+    "no_deploy": true,
+    "output_mode": "MINIMAL"
+  },
+  "screen_01_gate": {
+    "status": "BLOCKED_FILE_SERVICE_AT_REPORTED_HANDOFF",
+    "snapshot": "K:\\Cortezia Studio\\DOSSIER SITE OFFICIEL\\implémentation de direction artistique\\PRECHANGE_SNAPSHOT\\CORTEZIA_GATE_01_20260903_082242",
+    "known_runtime_paths": {
+      "gate_component": "components/legal/AgeGate.tsx",
+      "visual_css": "app/styles/cortezia-visual-mission-001-040.css",
+      "visual_assets": "public/assets/cortezia-visual/",
+      "gate_brand_assets": "public/assets/cortezia-gate-01/"
+    },
+    "already_reported": {
+      "assets_verified": [
+        "001",
+        "031",
+        "036"
+      ],
+      "brand_files_added": [
+        "official_ctz.png",
+        "official_cortezia_wordmark.png"
+      ],
+      "AgeGate_tsx_modified": false,
+      "visual_css_modified": false,
+      "final_capture": false
+    },
+    "resume_rule": "Resume exact audited delta. No global audit, no repository rescan, no Drive/GitHub, no snapshot recreation."
+  },
+  "repo_root": "UNVERIFIED_IN_THIS_CONVERSATION"
+}
