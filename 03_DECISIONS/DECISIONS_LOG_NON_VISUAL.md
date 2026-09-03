@@ -106,4 +106,33 @@ Les écritures GitHub sont autorisées pour CE dépôt de continuité afin de ma
 Statut : ACTIVE / EXPLICIT_DECISION
 Un asset classé REGENERATE n’est jamais supprimé de l’historique. Conserver la version reçue, la raison du rejet et la correction précise permettant de la rendre conforme.
 Une version corrigée ne devient PASS qu’après recontrôle réel. La conformité technique ne suffit pas : la silhouette/forme artistique correspondant au job doit aussi être validée. Tant que cette validation visuelle n’existe pas, l’asset reste non-PASS.
+
+
+
+
+## 2026-09-03 — WORKFLOW CODEX MICRO-PACK PAR ÉCRAN
+Statut : ACTIVE / EXPLICIT_DECISION
+Pour économiser les crédits Codex, ne plus envoyer un gros pack ni demander un audit global pour chaque écran.
+Principe : UN ÉCRAN = UN MICRO-PACK ciblé.
+
+
+Rôles :
+- Assistant/continuité = mémoire, sélection des assets, Drive + GitHub, préparation du micro-pack.
+- Codex = exécuteur local ciblé.
+Codex ne doit pas consulter Drive/GitHub ni relire l'historique pour une mission écran lorsqu'un micro-pack autonome est fourni.
+
+
+Règles Codex écran :
+- DO NOT AUDIT THE WHOLE REPOSITORY.
+- ne pas lire les anciens rapports ;
+- ne pas rechercher Drive/GitHub ;
+- inspecter seulement les fichiers runtime nécessaires à l'écran ;
+- préserver l'architecture existante ;
+- tests ciblés pendant l'implémentation ;
+- suite complète/build global seulement après groupe significatif ou gate global ;
+- OUTPUT_MODE=MINIMAL ;
+- réponse finale : STATUS, FILES_CHANGED, TESTS, CAPTURE, VISUAL_GAPS, SNAPSHOT.
+
+
+Une carte courte CORTEZIA_CODEX_MAP doit mémoriser les chemins réellement confirmés afin d'éviter de les rechercher à chaque écran.
 .
